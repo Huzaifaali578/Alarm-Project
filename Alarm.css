@@ -1,0 +1,92 @@
+ body { 
+  text-align: center;
+  background-color: #f5e1cb;
+  font-family: 'Arial', sans-serif;
+ } 
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background-color: #ab9171;
+  padding: 10px;
+}
+
+.header h1 {
+  color: #3f3b36;
+  font-size: 2em;
+  margin: 0;
+}
+
+.set-Alarm {
+  color: #3f3b36;
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.user-input {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input {
+  max-width: 50%;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #3f3b36;
+  border-radius: 20px 20px 20px 20px;
+  background-color: #e5d4bb;
+  color: #3f3b36;
+  font-weight: bold;
+  position: relative;
+  left: 22%;
+}
+
+.user-input .button button {
+  max-width: 100%;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid #3f3b36;
+  border-radius: 5px;
+  background-color: #ab9171;
+  color: #3f3b36;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.user-input .button button:hover {
+  background-color: #f5e1cb;
+}
+
+.set-alarm-list {
+  /* list-style: none; */
+  padding: 0;
+}
+
+.set-alarm-list li {
+  background-color: #e5d4bb;
+  color: #3f3b36;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Styling for the alarm time in the list */
+.set-alarm-list .time {
+  font-size: 1.2em;
+  margin-right: 10px;
+}
+
+/* Styling for the delete button in the list */
+.set-alarm-list .deleteAlarm {
+  background-color: #9e2a2b;
+  color: #fff;
+  border: 2px solid #9e2a2b;
+  border-radius: 5px;
+  cursor: pointer;
+}
