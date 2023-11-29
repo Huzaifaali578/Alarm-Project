@@ -27,8 +27,8 @@ currentTime();
 
 // If Hours, min, and sec are less than 10, then formatTime function puts '0' before a single digit.
 function formatTime(time) {
-  // Check if time is a string before checking its length
-  if (time < 10 && String(time).length !== 2) {
+  // Check if time is a single digit
+  if (time < 10 && time.toString().length === 1) {
     return '0' + time;
   }
   return time;
